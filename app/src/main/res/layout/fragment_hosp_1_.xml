@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/ibPlusHosp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUserHosp7"
+            android:layout_toEndOf="@+id/ibCallHosp7"
+            android:background="@drawable/icosend" />
+
+        <EditText
+            android:id="@+id/etCommentHosp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_below="@+id/etUserHosp7"
+            android:layout_marginRight="50dp"
+            android:ems="10"
+            android:hint="Введите комментарий"
+            android:inputType="textPersonName"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/etUserHosp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/etCommentHosp7"
+            android:layout_below="@+id/textView13"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:hint="Введите Ваше имя"
+            android:inputType="textPersonName"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnDoctorHosp7"
+            android:layout_centerVertical="true"
+            android:text="Отзывы:"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnDoctorHosp7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView13"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#ffc038"
+            android:text="@string/btnDoctor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_alignStart="@+id/textView11"
+            android:text="улица Запорожского казачества, д. 25"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/loc" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView3"
+            android:layout_alignStart="@+id/tvHosp7tel"
+            android:text="Пн-Вс: 8.00-20.00"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ibCallHosp7"
+            android:background="@drawable/clock" />
+
+        <ImageButton
+            android:id="@+id/ibCallHosp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/etCommentHosp7"
+            android:layout_below="@+id/textView8"
+            android:background="@drawable/icocall" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView8"
+            android:layout_below="@+id/textView8"
+            android:text="(приемная)"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tvHosp7tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_below="@+id/textView7"
+            android:text="@string/tvHosp1tel"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:text="(регистратура)" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/imageView2"
+            android:text="+380612780823"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            app:srcCompat="@drawable/phone" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text='"Центральная поликлиника №1"'
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="25sp" />
+
+        <ListView
+            android:id="@+id/lvHosp1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/etCommentHosp7"
+            android:layout_below="@+id/etCommentHosp7"
+            android:layout_marginTop="14dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

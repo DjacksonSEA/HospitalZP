@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Hospital</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvWelcome">Добро пожаловать в справочник поликлиник Запорожья</string>
+    <string name="btnMenu">ПЕРЕЙТИ К СПРАВОЧНИКУ</string>
+    <string name="tvMap">ПОЛИКЛИНИКИ</string>
+    <string name="tvMStel">+380617205707</string>
+    <string name="tvHosp9tel">+380612243700</string>
+    <string name="tvHosp1tel">+380612771731</string>
+    <string name="tvHosp3tel">+380612131538</string>
+    <string name="tvHosp7tel">+380617643350</string>
+    <string name="btnDoctor">Вызвать врача</string>
+    <string name="btnDocGo">Отправить заявку</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">Map</string>
+</resources>
